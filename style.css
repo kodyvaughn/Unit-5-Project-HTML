@@ -51,6 +51,7 @@ charlist {
 }
 
 .navbar {
+  border-radius: 5px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -60,10 +61,6 @@ charlist {
 
 .navlist {
   float: left;
-}
-
-navlist a {
-
 }
 
 a {
@@ -76,5 +73,12 @@ a {
 
 .navlist:hover {
   background-color: #111
+}
 
+.backtotop {
+  margin: 10px;
+  padding: 10px 5px;
+  width: 10%;
+  border-radius: 5px;
+  background-color: #333;
 }
